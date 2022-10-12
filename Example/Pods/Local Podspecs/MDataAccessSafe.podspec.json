@@ -1,0 +1,24 @@
+{
+  "name": "MDataAccessSafe",
+  "version": "0.1.0",
+  "summary": "A short description of MDataAccessSafe.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/梅洋/MDataAccessSafe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "梅洋": "yang.mei@newtouch.com"
+  },
+  "source": {
+    "git": "https://github.com/梅洋/MDataAccessSafe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MDataAccessSafe/Classes/**/*",
+  "prefix_header_file": "MDataAccessSafe/Classes/PrefixHeader.pch",
+  "public_header_files": "Pod/Classes/**/*.h"
+}

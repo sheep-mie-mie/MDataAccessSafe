@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MDataAccessSafe_Example' do
+  pod 'MDataAccessSafe', :path => '../'
+  
+  pod 'Masonry'
+  
+  target 'MDataAccessSafe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

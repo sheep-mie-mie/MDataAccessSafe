@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - MDataAccessSafe (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MDataAccessSafe (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  MDataAccessSafe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MDataAccessSafe: 7f36e84f42e95c7948d4b8fea3ebbab494967fb3
+
+PODFILE CHECKSUM: 785685b58459ec763e5be1620019aaa973f135f2
+
+COCOAPODS: 1.11.3

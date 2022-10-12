@@ -1,0 +1,6 @@
+framework module MDataAccessSafe {
+  umbrella header "MDataAccessSafe-umbrella.h"
+
+  export *
+  module * { export * }
+}
