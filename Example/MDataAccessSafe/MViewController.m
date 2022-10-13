@@ -43,14 +43,16 @@
     switch (indexPath.row) {
         case 0: {
             // 可变数组越界
-            NSArray *array = @[@"1", @"2", @"3"];
-            id result = [array objectAtIndex:3];
-            NSLog(@"result -- %@", (NSString *)result);
+            NSMutableArray *muArray = [[NSMutableArray alloc] initWithArray:@[@"1", @"2", @"3"]];
+            id result = [muArray objectAtIndex:3];
+            NSLog(@"可变 result -- %@", (NSString *)result);
         }
             break;
         case 1: {
             // 不可变数组越界
-            
+            NSArray *array = @[@"1", @"2", @"3"];
+            id result = [array objectAtIndex:3];
+            NSLog(@"不可变 result -- %@", (NSString *)result);
         }
             break;
         case 2: {
