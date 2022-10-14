@@ -57,7 +57,9 @@
             break;
         case 2: {
             // 可变字典存nil
-            
+            NSString *str = nil;
+            NSMutableDictionary *muDic = [[NSMutableDictionary alloc] initWithDictionary:@{@"name":@"zhangsan", @"age":str}];
+            NSLog(@"可变字典 -- %@", muDic);
         }
             break;
         case 3: {
